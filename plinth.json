@@ -1,5 +1,17 @@
 {
   "coreVersion": "0.1.0",
   "slotsVersion": 1,
-  "integrations": []
+  "integrations": [
+    {
+      "id": "visitor-counter",
+      "package": "@plinth-pages/visitor-counter",
+      "version": "0.1.0",
+      "slot": "footer",
+      "props": {
+        "endpoint": "https://api.plinthpages.me",
+        "label": "visitors",
+        "siteId": "cmu7avdf3002llo0xayv47ncn"
+      }
+    }
+  ]
 }
